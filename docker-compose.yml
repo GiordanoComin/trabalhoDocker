@@ -1,0 +1,15 @@
+version: '3'
+services:
+  php:
+    image: php:7.4.30-apache
+    volumes:
+      - ./Trabalho:/var/www/html
+    ports:
+      - 8000:80
+    depends_on:
+      - db
+
+  db:
+    image: nouchka/sqlite3:latest
+    volumes:
+      - ./Trabalho:/var/lib/sqlite

@@ -1,0 +1,52 @@
+.container {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.linha {
+    list-style: none;
+}
+
+.linha button {
+    margin-top: 12px;
+}
+
+.linha2 {
+    margin-top: 10px;
+}
+
+.resultado {
+    font-size: 22px;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+
+}
+
+.alinhamento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.bloco2 {
+    position: relative;
+    outline-style: solid;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloco2 footer {
+    text-align: right;
+    font-size: 70%;
+    font-style: italic;
+    margin-right: 5px;
+}
